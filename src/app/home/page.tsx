@@ -118,7 +118,7 @@ export const Homepage = () => {
           Hire Talent on Contract
         </h1>
         <p className="text-sm sm:text-lg md:text-xl leading-relaxed text-gray-700 max-w-2xl">
-          Your single point of access to 500,000+ Talents from 50,000+ top vetted agencies around the globe
+          Your single point of access to 500,000+ Talents from 50,000+ top rated agencies around the globe
         </p>
 
         {/* Search Bar */}
