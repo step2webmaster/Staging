@@ -115,7 +115,7 @@ export const Homepage = () => {
       {/* Hero Section */}
       <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
         <h1 className="text-3xl sm:text-5xl font-bold text-[#1A2B6B] mt-8 mb-4">
-          Hire Talent on Contractss
+          Hire Talent on Contract
         </h1>
         <p className="text-sm sm:text-lg md:text-xl leading-relaxed text-gray-700 max-w-2xl">
           Your single point of access to 500,000+ Talents from 50,000+ top vetted agencies around the globe
