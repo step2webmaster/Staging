@@ -9,12 +9,13 @@ import { getSession, signIn } from 'next-auth/react';
 interface FormData {
   email: string;
   password: string;
+  role: string;
 }
 
 const Login = () => {
   const router = useRouter();
-
-  const [form, setForm] = useState<FormData>({ email: '', password: '' });
+  const [form, setForm] = useState<FormData>({ email: '', password: '', role: 'provider' });
+  // const [form, setForm] = useState<FormData>({ email: '', password: '' });
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -128,8 +129,9 @@ const handleSubmit = async (e: FormEvent) => {
           </div>
 
          
-
+  
     <p className='text-sm text-end text-blue-500'><a href='/users/forgot-password'>Forgot password ?</a></p>
+
           <button
             type="submit"
             disabled={loading}
